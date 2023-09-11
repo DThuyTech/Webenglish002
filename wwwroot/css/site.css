@@ -7,7 +7,11 @@ html {
     font-size: 16px;
   }
 }
-
+.tuluan{
+    margin-top :200px;
+  
+  
+}
 html {
   position: relative;
   min-height: 100%;
@@ -16,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card-body input {
+    font-family: inherit;
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #808080;
+    background: transparent;
+    font-size: 1rem;
+    color: #ff006e;
+    padding-left:7px;
+}
+    .card-body input::placeholder {
+        color: transparent;
+    }

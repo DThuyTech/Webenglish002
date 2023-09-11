@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.space p {
+  color: white;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 120px auto;
+}
+
+.item-info {
+  width: 100%;
+  max-height: 800px;
+}
+
+.avt-info {
+  position: relative;
+  left: 44px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: start;
+  z-index: 1;
+}
+
+.head-right {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.item-head {
+  width: 150px;
+  height: 185px;
+}
+
+.avt-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(49 60 72);
+}
+
+.avt-img:hover {
+  webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+  filter: blur(1px);
+  cursor: pointer;
+}
+
+.body-info {
+  max-width: 98%;
+  max-height: 70%;
+  border-radius: 12px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 55px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+}
+
+.item-right {
+  max-width: 93%;
+  max-height: 70%;
+  border-radius: 12px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 55px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+}
+
+.panel-info {
+  width: 100%;
+  height: 570px;
+}
+
+.box-right {
+  width: 100%;
+  height: 628px;
+}
+
+.panel-heading {
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.panel-body {
+  align-items: center;
+}
+
+.panel-title {
+  padding-top: 45px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.lable {
+  margin: 20px 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.panel-foot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Btn {
+  margin: 10px 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 105px;
+  height: 45px;
+  border: none;
+  padding: 0px 20px;
+  background-color: rgb(54 192 248);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px rgb(12 153 210);
+  transition-duration: 0.3s;
+}
+
+.svg {
+  width: 13px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: white;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover {
+  color: transparent;
+}
+
+.Btn:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.Btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 0px rgb(33 99 196);
+}
