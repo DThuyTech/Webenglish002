@@ -59,6 +59,13 @@ img {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
 }
 
+.link {
+    text-decoration: none;
+    color: rgb(90 170 241);
+    font-weight: 500;
+   
+}
+
 .heading {
   font-size: 2em;
   color: #4a96cc;
@@ -135,7 +142,8 @@ img {
   text-decoration: none;
   padding: 7px 15px;
   border-radius: 20px;
-  margin-left: 220px;
+  display: flex;
+  justify-content: end;
 }
 
 .reg-social {
@@ -148,6 +156,7 @@ img {
 
 button {
   display: flex;
+  z-index: 2;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -185,4 +194,9 @@ button:active {
 button:hover {
   transform: scale(1.02);
   color: #226bbc;
+}
+
+.text-danger {
+    color: red;
+    font-size: 1rem;
 }
